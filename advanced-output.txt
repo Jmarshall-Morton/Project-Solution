@@ -1,0 +1,14 @@
+Token #49, with value = '\t'; at line 0, column 0
+Token #49, with value = '\n'; at line 1, column 0
+Token #50, with value = "\\not a comment"; at line 2, column 0
+Token #49, with value = '\\'; at line 3, column 0
+Token #49, with value = '\''; at line 4, column 0
+Token #50, with value = "\""; at line 5, column 0
+Token #47, with value = 6; at line 6, column 0
+Token #46, with value = oodDay; at line 6, column 1
+Token #48, with value = 12.46; at line 7, column 0
+Token #46, with value = e12; at line 7, column 5
+Token #49, with value = ' '; at line 8, column 0
+Token #46, with value = int2; at line 9, column 0
+Token #46, with value = vo1d; at line 10, column 0
+Token #46, with value = charles; at line 11, column 0

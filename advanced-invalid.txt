@@ -1,0 +1,5 @@
+'''\\clear
+"""\\clear
+"
+"\\clear new line
+"   "\\clear tabs

@@ -1,0 +1,18 @@
+'\t'
+'\n'
+"\\not a comment"
+'\\'
+'\''
+"\""
+6oodDay
+12.46e12
+' '
+int2
+vo1d
+charles
+\*
+6
+3.2
+kg
+*\
+
