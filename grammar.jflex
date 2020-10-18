@@ -88,10 +88,10 @@ return		{ return newSym(sym.RETURN, "return"); }
 "||"            { return newSym(sym.OR, "||"); }
 "*"             { return newSym(sym.TIMES, "*"); }
 "+"             { return newSym(sym.PLUS, "+"); }
-"+" 		{ return newSym(sym.PREFIXPLUS, "+"); }
+"+" 		{ return newSym(sym.PREFIXPLUS, "+"); } //This rule can never be reached due to the rule above
 "++"		{ return newSym(sym.PLUSPLUS, "++"); }
 "-"             { return newSym(sym.MINUS, "-"); }
-"-"		{ return newSym(sym.PREFIXMINUS, "-"); }
+"-"		{ return newSym(sym.PREFIXMINUS, "-"); } //This rule can never be reached due to the rule above
 "--"		{ return newSym(sym.MINUSMINUS, "--"); }
 "/"             { return newSym(sym.DIVIDE, "/"); }
 ";"             { return newSym(sym.SEMI, ";"); }
@@ -107,7 +107,7 @@ return		{ return newSym(sym.RETURN, "return"); }
 "<="            { return newSym(sym.LESS_EQ, "<="); }
 ">="            { return newSym(sym.GTR_EQ, ">="); }
 "<>"            { return newSym(sym.NOT_EQ, "<>"); }
-"~"		{ return newSym(sym.NOT, "?"); }
+"~"		{ return newSym(sym.NOT, "~"); } // I think you have an issue with ~
 "?"		{ return newSym(sym.CONDITION, "?"); }
 ":"             { return newSym(sym.COLON, ":"); }
 "="             { return newSym(sym.ASSMNT, "="); }
